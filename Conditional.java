@@ -8,5 +8,7 @@ public class Conditional {
         }else{
             System.out.println("Not eligible to vote");
         }
+        //definition of git
+        System.out.println("Git is a distributed Version Control System used to track changes in the source code during software development!!");
     }
 }
