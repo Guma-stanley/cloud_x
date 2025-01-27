@@ -8,5 +8,12 @@ public class Conditional {
         }else{
             System.out.println("Not eligible to vote");
         }
+        // a simple program to open the door
+        int doorCode=2560;
+        if(doorCode==2560){
+            System.out.println("Correct Code\nDoor Opened");
+        }else{
+            System.out.println("Wrong code, please re-enter the code");
+        }
     }
 }
