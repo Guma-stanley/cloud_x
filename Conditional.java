@@ -15,5 +15,8 @@ public class Conditional {
         }else{
             System.out.println("Wrong code, please re-enter the code");
         }
+        //random numbers in java
+        int result = (int)(Math.random()*11);
+        System.out.println(result);
     }
 }
