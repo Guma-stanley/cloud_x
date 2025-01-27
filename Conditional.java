@@ -10,5 +10,15 @@ public class Conditional {
         }
         //definition of git
         System.out.println("Git is a distributed Version Control System used to track changes in the source code during software development!!");
+        // a simple program to open the door
+        int doorCode=2560;
+        if(doorCode==2560){
+            System.out.println("Correct Code\nDoor Opened");
+        }else{
+            System.out.println("Wrong code, please re-enter the code");
+        }
+        //random numbers in java
+        int result = (int)(Math.random()*11);
+        System.out.println(result);
     }
 }
